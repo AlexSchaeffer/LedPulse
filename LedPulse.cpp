@@ -59,7 +59,7 @@ void LedPulse::blink()
 	{
 		_previousMillis = _currentMillis;
 		_ledState = HIGH;
-		digitalWrite(_ledPin, _ledState);
+		digitalWrite(_ledPin, _ledState); 
 	}	
 }
 
